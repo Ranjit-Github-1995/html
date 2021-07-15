@@ -104,11 +104,15 @@ h2::after {
 .header_container{
   max-width: 100%;
   margin: 0px auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .sec_container{
   max-width: 100%;
   margin: 0px auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 
