@@ -1,0 +1,492 @@
+@media (max-width: 1024px) {
+  .main_head .navbar-nav .clickD {
+    position: absolute;
+    right: -5px;
+    top: 50%;
+    width: 10px;
+    height: 5px;
+    border-top: 5px solid #fff;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    cursor: pointer;
+    display: block;
+    background-size: 10px;
+    z-index: 9999;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .main_head ul.navbar-nav li .clickD + .sub-menu {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .main_head ul.navbar-nav li .clickD.toggled + .sub-menu {
+    position: absolute;
+    top: 100%;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+
+
+
+@media (min-width: 992px) {
+  .navbar li a{
+    padding: 0 6px;
+    font-size: 16px;
+  }
+  .logo{
+    width: 14% !important;
+  }
+  .navbar li:last-child{
+    left: 10px;
+  }
+  .call_num{
+    display: none;
+  }
+  .left_nav{
+    float: left;
+  }
+  .about_us h2{
+    padding-bottom: 32px;
+  }
+  .about_us a{
+    margin-top: 40px;
+  }
+  .about_us::after{
+    width: 992px;
+    background-size: 100%;
+    bottom: -3px;
+  }
+  .cat ul li .right_pannel{
+    width: 55%;
+    right: 5%;
+    padding: 65px 40px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+  .about_us .right_slider .slick-next{
+    top: 312px;
+    right: 45px;
+  }
+  .about_us .right_slider .slick-prev{
+    top: 312px;
+    left: 320px;
+  }
+  .sty input[type="email"]{
+    width: 48%;
+  } 
+  footer .footer_nav ul li{
+    padding: 0 9px;
+  }
+  .gallery .slick-prev{
+    left: 20px;
+  } 
+}
+
+@media (min-width: 1200px) and (max-width: 1299px){
+
+  .about_us .right_slider .slick-next{
+    top: 385px;
+    right: 45px;
+  }
+  .about_us .right_slider .slick-prev{
+    top: 385px;
+    left: 400px;
+  }
+  .cat ul li .right_pannel{
+    width: 48%;
+  }  
+}
+
+@media (min-width: 1300px) {
+  .navbar li a{
+    padding: 0 9px;
+    font-size: 17px;
+  }
+  .left_nav{
+    float: right;
+  }
+  .logo{
+    width: 14% !important;
+  }
+  .navbar li:last-child{
+    left: 10px;
+  }
+  .call_num{
+    display: block;
+  }
+  .about_us h2{
+    padding-bottom: 70px;
+  }
+  .about_us a{
+    margin-top: 85px;
+  }
+  .about_us::after{
+    background-size: 100%;
+    width: 1192px;
+  }
+  .cat ul li .right_pannel{
+    width: 45%;
+  }
+}
+
+@media (min-width: 1545px){
+  .logo{
+    width: auto !important;
+  }
+  .navbar li a{
+    padding: 0 18px;
+  }
+  .navbar li:last-child{
+    left: 0;
+  }
+  .about_us::after{
+    width: 1510px;
+  }
+  .cat ul li .right_pannel{
+    width: 40%;
+  }
+}
+
+@media (max-width: 992px){
+  
+  .left_nav{
+    width: 100%;
+  }
+  .top_slider{
+    height: auto;
+    position: relative;
+    z-index: 0;
+  }
+  .top_slider img{
+    height: 100%;
+  }
+  .ban{
+    margin-top: -6px;
+  }
+  .ban h2{
+    padding: 30px 40px;
+  }
+  .ban .imagebox .image_border{
+    top: 4px;
+    left: 11px;
+    width: 91%;
+    height: 94%;
+  }
+  .about_us h2{
+    padding-top: 85px;
+    padding-bottom: 30px;
+  }
+  .about_us a{
+    margin-top: 40px;
+  }
+  .about_us .right_slider .slick-next{
+    top: 213px;
+  }
+  .about_us .right_slider .slick-prev{
+    left: 205px;
+    top: 213px;
+  }
+  .about_us::after{
+    width: 100%;
+    background-size: 100%;
+  }
+  .sp img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+  }
+  .sp .sp_content .sp_content_box p{
+    padding-bottom: 40px;
+  }
+  .sp .sp_content .sp_content_box h2{
+    padding-top: 40px;
+  }
+  .cat ul li .right_pannel{
+    width: 70%;
+    padding: 40px 30px;
+    right: 6%;
+  }
+  .cat ul li .right_pannel h6{
+    padding-bottom: 35px;
+  }
+  .sty input[type="email"]{
+    margin-left: 0%;
+  }
+  .sty button[type="submit"]{
+    padding: 17.5px 40px;
+  }
+  footer .footer_nav ul li{
+    padding: 0 8px;
+  }
+  footer .footer_nav ul li a{
+    font-size: 12px;
+  }
+  footer .footer_nav{
+    padding: 25px 0 20px 0;
+  }
+
+}
+
+@media (max-width: 767px){
+  
+  .top_slider{
+    height: auto;
+  }
+  .top_slider img{
+    height: 100%;
+  }
+  .ban{
+    margin-top: -6px;
+    padding-bottom: 30px;
+  }
+  .ban h2{
+    padding: 30px 40px;
+  }
+  .ban .imagebox .image_border{
+    top: 4px;
+    left: 11px;
+    width: 91%;
+    height: 94%;
+  }
+  .about_us{
+    padding-bottom: 95px;
+  }
+  .about_us h2{
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  .about_us .right_slider{
+    padding-top: 40px;
+  }
+  .about_us a{
+    margin-top: 40px;
+  }
+  .about_us .right_slider .slick-next{
+    top: 360px;
+  }
+  .about_us .right_slider .slick-prev{
+    left: 370px;
+    top: 360px;
+  }
+  .about_us::after{
+    width: 100%;
+    background-size: 100%;
+    bottom: 0;
+  }
+  .sp .sp_content{
+    margin: 40px 0 0px 0px;
+    padding: 40px 0;
+  }
+  .p0{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .p_left{
+    padding-left: 15px;
+  }
+  .sp img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+  }
+  .sp .sp_content .sp_content_box p{
+    padding-bottom: 40px;
+  }
+  .sp .sp_content .sp_content_box h2{
+    padding-top: 40px;
+  }
+  .cat ul li .right_pannel h5{
+    font-size: 35px;
+  }
+  .cat ul li .right_pannel h6{
+    font-size: 35px;
+    padding-bottom: 20px;
+  }
+  .cat ul li .right_pannel span{
+    font-size: 35px;
+  }
+  .cat ul li .right_pannel{
+    width: 70%;
+    padding: 40px 30px;
+    right: 6%;
+  }
+  .sty input[type="email"]{
+    margin-left: 0%;
+  }
+  .sty button[type="submit"]{
+    padding: 17.5px 40px;
+  }
+  footer .footer_nav ul li{
+    padding: 0 12px;
+  }
+  footer .footer_nav ul li a{
+    font-size: 15px;
+  }
+  .sty h6{
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  footer .addres_bar .round{
+    top: -25px;
+    width: 70px;
+    height: 70px;
+  }
+  footer .addres_bar .round img{
+    padding: 18px 18px;
+  }
+  footer .footer_nav ul{
+    flex-direction: column;
+  }
+  footer .footer_nav{
+    padding: 25px 0 20px 0;
+  }
+  .ban .caption p{
+    padding-bottom: 18px;
+  }
+  .ban .caption a{
+    margin-bottom: 15px;
+  }
+  .ban .imagebox .image_border{
+    width: 96%;
+    height: 97%;
+  }
+
+}
+
+@media (max-width: 575px){
+  
+  .top_slider{
+    height: auto;
+  }
+  .top_slider img{
+    height: 100%;
+  }
+  .ban{
+    margin-top: -6px;
+    padding-bottom: 30px;
+  }
+  .ban h2{
+    padding: 30px 40px;
+  }
+  .ban .imagebox .image_border{
+    top: 4px;
+    left: 11px;
+    width: 91%;
+    height: 94%;
+  }
+  .about_us{
+    padding-bottom: 95px;
+  }
+  .about_us h2{
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  .about_us .right_slider{
+    padding-top: 40px;
+  }
+  .about_us a{
+    margin-top: 40px;
+  }
+  .about_us .right_slider .slick-next{
+    top: 388px;
+    display: none;
+  }
+  .about_us .right_slider .slick-prev{
+    left: 410px;
+    top: 388px;
+    display: none;
+  }
+  .about_us::after{
+    width: 100%;
+    background-size: 100%;
+    bottom: 0;
+  }
+  .sp .sp_content{
+    margin: 40px 0 0px 0px;
+    padding: 40px 0;
+  }
+  .p0{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .p_left{
+    padding-left: 15px;
+  }
+  .sp img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+  }
+  .sp .sp_content .sp_content_box p{
+    padding-bottom: 40px;
+  }
+  .sp .sp_content .sp_content_box h2{
+    padding-top: 40px;
+  }
+  .cat ul li .right_pannel h5{
+    font-size: 35px;
+  }
+  .cat ul li .right_pannel h6{
+    font-size: 35px;
+    padding-bottom: 20px;
+  }
+  .cat ul li .right_pannel span{
+    font-size: 35px;
+  }
+  .cat ul li .right_pannel{
+    width: 70%;
+    padding: 40px 30px;
+    right: 6%;
+  }
+  .sty input[type="email"]{
+    margin-left: 0%;
+  }
+  .sty button[type="submit"]{
+    padding: 17.5px 40px;
+  }
+  footer .footer_nav ul li{
+    padding: 0 12px;
+  }
+  footer .footer_nav ul li a{
+    font-size: 15px;
+  }
+  .sty h6{
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  footer .addres_bar .round{
+    top: -25px;
+    width: 70px;
+    height: 70px;
+  }
+  footer .addres_bar .round img{
+    padding: 18px 18px;
+  }
+  footer .footer_nav{
+    padding: 25px 0 20px 0;
+  }
+  .ban .caption p{
+    padding-bottom: 18px;
+  }
+  .ban .caption a{
+    margin-bottom: 15px;
+  }
+  .ban .imagebox .image_border{
+    width: 96%;
+    height: 97%;
+  }
+  .about_us .right_slider .slider_next_prev{
+    display: none;
+  }
+  .about_us .right_slider .slider_next_prev::after{
+    display: none;
+  }
+
+}
