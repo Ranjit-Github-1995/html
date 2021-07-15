@@ -153,6 +153,13 @@
 
 @media (max-width: 992px){
   
+  .navbar li:last-child{
+    width: 80%;
+    left: 6%;
+  }
+  .navbar .navbar-nav > li{
+    padding: 10px 0;
+  }
   .left_nav{
     width: 100%;
   }
