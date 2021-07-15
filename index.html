@@ -443,7 +443,7 @@
         infinite: true,
         speed: 300,
         dots: false,
-        autoplay: false,
+        autoplay: true,
         arrows: true,
     });
 </script>
@@ -460,6 +460,8 @@
     arrows: false,
     dots: true,
     vertical: true,
+    autoplay: true,
+    infinite: false,
     verticalSwiping: true  
 });
         
@@ -473,6 +475,7 @@ $('.center').slick({
   centerMode: true,
   centerPadding: '495px',
   slidesToShow: 1,
+  autoplay: true,
   responsive: [
   {
       breakpoint: 1545,
@@ -515,7 +518,7 @@ $('.center').slick({
       settings: {
         arrows: false,
         centerMode: true,
-        centerPadding: '80px',
+        centerPadding: '20px',
         slidesToShow: 1
       }
     }
